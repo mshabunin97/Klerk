@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		box-sizing: border-box;
+	}
+}
+
+@layer components {
+	.container {
+		background-color: #F5F5F8;
+		@apply w-[100%] mx-auto  mt-4 mb-12 sm:rounded-2xl sm:w-[768px] md:w-[1024px] overflow-hidden
+	}
+	.root {
+		@apply flex flex-col justify-center items-center
+	}
+	.logo {
+		@apply mt-6 sm:mt-12
+	}
+	.breadcrumbs {
+		color: #999999;
+		@apply flex pt-6 text-xs cursor-pointer
+	}
+	.title {
+		@apply text-[32px] leading-10 font-medium mt-2 text-black sm:text-5xl sm:pt-6 sm:mt-0 md:text-[56px] md:leading-[72px]
+	}
+	.tabs {
+		@apply pt-6
+	}
+	.tabs-item {
+		color: #666666;
+		@apply  mr-8 font-normal text-base cursor-pointer sm:mr-6 hover:text-gray-700
+	}
+	.tabs-item.active {
+		@apply font-medium text-blue-400 border-b-2 border-blue-400 pb-4
+	}
+	.tabs-item:last-child {
+		@apply mr-0
+	}
+	.mailing {
+		@apply px-4 pt-8 text-[1.3rem] text-black font-medium sm:text-2xl sm:pb-6 sm:text-center sm:mt-12
+	}
+	.input-with-button {
+		@apply m-3 sm:m-5 sm:mt-0 md:mt-0 md:mr-12 md:mb-4 md:ml-12
+	}
+	.input {
+		width: 82%;
+		@apply p-4 rounded-[8px] border-2 border-white  sm:w-[72%] md:w-3/4 lg:w-[82%]
+	}
+	.input::placeholder {
+		color: #666666;
+		@apply font-normal text-base
+	}
+	.button {
+		@apply max-w-[60px] rounded-[100%] px-6 py-5 bg-blue-500 text-white border-none cursor-pointer sm:rounded-full  sm:px-8 sm:py-4 sm:max-w-[163px] hover:bg-blue-600
+	}
+	.card {
+		box-shadow: 0px 8px 16px 0px #00000014;
+		@apply max-w-[343px] rounded-lg bg-white md:max-w-[476px]
+	}
+	.wrapper {
+		@apply px-4 py-6 flex sm:p-6
+	}
+	.card-content {
+		max-width: 348px;
+	}
+	.card-time {
+		color: #999999;
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.card-title {
+		@apply text-black text-xl font-medium
+	}
+	.card-subtitle {
+		color: #666666;
+		@apply pt-2 pb-4 font-normal text-sm
+	}
+	.content-wrapper {
+		@apply mb-8 flex justify-center flex-wrap  gap-6 md:mx-6 md:mb-12
+	}
+	.card-text.font-medium {
+		font-weight: 500;
+	}
+}
