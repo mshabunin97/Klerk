@@ -22,13 +22,13 @@ onUnmounted(() => {
 <template>
     <div class="content-wrapper">
 
-        <Card 
-			v-for="item in cards"
-			:key=item.id
-			:card=item
-			v-model=item.checked
-            :is-small-screen="isSmallScreen"
-        />
+      <Card 
+        v-for="item in cards"
+        :key=item.id
+        :card=item
+        v-model=item.checked
+        :is-small-screen="isSmallScreen"
+      />
     </div>
 </template>
 

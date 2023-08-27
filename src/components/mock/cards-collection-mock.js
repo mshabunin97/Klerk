@@ -8,8 +8,8 @@ const mock = [
             { icon: '../src/assets/Vector.svg', text: 'Новости для бухгалтеров, ИП и директора' },
             { icon: '../src/assets/Vector.svg', text: 'Подборка статей за день' }
         ],
-        pinIcon: 'src/assets/Pin-light.svg',
-        pinIconSmall: './src/assets/Pin-light.svg',
+        pinIcon: '..src/assets/Pin-light.svg',
+        pinIconSmall: '../src/assets/Pin-light.svg',
         checkboxLabel: 'Уже получает 59 342 человек',
         checked: true
     },
