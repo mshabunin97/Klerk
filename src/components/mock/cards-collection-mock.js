@@ -5,12 +5,12 @@ const mock = [
         title: 'Утренний бухгалтер',
         subtitle: 'Самые важные новости и события за день. Кратко, по делу, структурировано.',
         items: [
-            { icon: '../src/assets/Vector.svg', text: 'Новости для бухгалтеров, ИП и директора' },
-            { icon: '../src/assets/Vector.svg', text: 'Подборка статей за день' }
+            { icon: '/Vector.svg', text: 'Новости для бухгалтеров, ИП и директора' },
+            { icon: '/Vector.svg', text: 'Подборка статей за день' }
         ],
-        pinIcon: '..src/assets/Pin-light.svg',
-        pinIconSmall: '../src/assets/Pin-light.svg',
-        checkboxLabel: 'Уже получает 59 342 человек',
+        pinIcon: '/Pin-light.svg',
+        pinIconSmall: '/Pin-light.svg',
+        checkboxLabel: 'Уже получает 59 342 человек',   
         checked: true
     },
     {
@@ -19,11 +19,11 @@ const mock = [
         title: 'Ночной бухгалтер',
         subtitle: 'Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.',
         items: [
-            { icon: '../src/assets/Vector.svg', text: 'Анализ, оценка и только самое главное' },
-            { icon: '../src/assets/Vector.svg', text: 'Лучшие комменты юзеров в обзоре' }
+            { icon: '/Vector.svg', text: 'Анализ, оценка и только самое главное' },
+            { icon: '/Vector.svg', text: 'Лучшие комменты юзеров в обзоре' }
         ],
-        pinIcon: '../src/assets/Pin-dark.svg',
-        pinIconSmall: '../src/assets/Pin-dark.svg',
+        pinIcon: '/Pin-dark.svg',
+        pinIconSmall: '/Pin-dark.svg',
         checkboxLabel: 'Уже получает 37 480 человек',
     },
     {
@@ -32,11 +32,11 @@ const mock = [
         title: 'Ножницы скидок',
         subtitle: 'Подборка самых выгодных и полезных спецпредложений от надежных компаний.',
         items: [
-            { icon: '../src/assets/Vector.svg', text: 'Акции и скидки от лидеров рынка' },
-            { icon: '../src/assets/Vector.svg', text: 'Те, кто подписался – экономят много денег' }
+            { icon: '/Vector.svg', text: 'Акции и скидки от лидеров рынка' },
+            { icon: '/Vector.svg', text: 'Те, кто подписался – экономят много денег' }
         ],
-        pinIcon: '../src/assets/Scissors.svg',
-        pinIconSmall: '../src/assets/Scissors-small.svg',
+        pinIcon: '/Scissors.svg',
+        pinIconSmall: '/Scissors-small.svg',
         checkboxLabel: 'Уже получает 92 118 человек',
     },
     {
@@ -45,11 +45,11 @@ const mock = [
         title: 'Чемодан вебинаров',
         subtitle: 'Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.',
         items: [
-            { icon: '../src/assets/Vector.svg', text: 'Никогда не пришлем платные вебинары' },
-            { icon: '../src/assets/Vector.svg', text: 'Подборка топовых тем для вебинаров' }
+            { icon: '/Vector.svg', text: 'Никогда не пришлем платные вебинары' },
+            { icon: '/Vector.svg', text: 'Подборка топовых тем для вебинаров' }
         ],
-        pinIcon: '../src/assets/Pay.svg',
-        pinIconSmall: '../src/assets/Pay-small.svg',
+        pinIcon: '/Pay.svg',
+        pinIconSmall: '/Pay-small.svg',
         checkboxLabel: 'Уже получает 92 082 человек',
     }, 
 ];

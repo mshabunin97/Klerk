@@ -7,8 +7,8 @@ import CardCollection from "./components/CardsCollection.vue"
 import Input from "./components/Input.vue"
 import axios from 'axios';
 
-import Vector from './assets/Vector.svg'
-import Pinlight from './assets/Pin-light.svg'
+import Vector from '/Vector.svg'
+import Pinlight from '/Pin-light.svg'
 
 import { mock } from './components/mock/cards-collection-mock'
 
@@ -18,7 +18,7 @@ import { mock } from './components/mock/cards-collection-mock'
 	<div>
 
 		<header class="root">
-			<img class="logo" src="./assets/Klerk.svg" alt="logo">
+			<img class="logo" src="/Klerk.svg" alt="logo">
 			<BreadCrumbs />
 			<h1 class="title">Подписки «Клерка»</h1>
 			<Tabs />
@@ -31,7 +31,7 @@ import { mock } from './components/mock/cards-collection-mock'
 			<CardCollection :cards=cards />
 		</section>
 
-		<img class="m-auto mb-12" src="./assets/Chuvak.svg" alt="chuvak">
+		<img class="m-auto mb-12" src="/Chuvak.svg" alt="chuvak">
 
 	</div>
 
